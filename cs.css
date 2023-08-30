@@ -1,0 +1,94 @@
+.nav {
+    /* padding: 14px; */
+    top: 0px;
+    width: 80%;
+    background-color: #fff;
+    position: fixed;
+}
+
+.nav ul {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+    padding: 10px 0px;
+    font-size: 25px;
+    font-weight: 300;
+    /* position: fixed; */
+}
+
+.nav ul li {
+    list-style: none;
+    text-align: center;
+}
+
+.items {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.item-img img {
+    width: 100%;
+}
+
+.item {
+    width: 25%;
+    padding: 5px 10px;
+    text-align: center;
+    padding: 15px 5px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.item-name {
+    color: rgb(47, 44, 44);
+    font-size: 25px;
+    font-weight: 300;
+    padding: 10px 0px;
+}
+
+.item-description {
+    color: grey;
+    font-size: 15px;
+    font-weight: 200;
+    padding: 13px 0px;
+}
+
+.page {
+    width: 35%;
+}
+
+.page-row ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.page-row ul li {
+    width: 15%;
+}
+
+hr {
+    width: 100%;
+    margin: 100px;
+}
+
+.img img {
+    width: 80%;
+}
+
+.about-section {
+    width: 80%;
+}
+
+.about-heading {
+    width: 40%;
+    top: 0;
+    left: 10px;
+}
